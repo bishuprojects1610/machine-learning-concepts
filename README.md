@@ -12,3 +12,12 @@ As such, linear regression was developed in the field of statistics and is studi
               3.Performance of students in academics or any other discipline with a given set of result data.
 As all the above examples show us that Linear regression is built on the given dataset which gives an output for our model.It presents decision quantitaively.
 The Simple Linear Regression model can be reprsented as Y=C+AX1+BX2
+The implementation of Simple Regression model is shown in Untitle3.py code using data set is LR_X.txt and LR_Y.txt.
+
+2.Logistic Regression
+Logistic Regression is based on the concept of Regression over the logistic function.Also called the sigmoid function It’s an S-shaped curve that can take any real-valued number and map it into a value between 0 and 1, but never exactly at those limits.
+                                                   1 / (1 + e^-value)
+ Logistic regression predict probabilities which can be written as P(sex=male|height).Note that the probability prediction must be transformed into a binary values (0 or 1) in order to actually make a probability prediction. More on this later when we talk about making predictions.The regression is linear model but gets transformed using function. 
+                                             p(X) = e^(b0 + b1*X) / (1 + e^(b0 + b1*X))
+The best prediction will make an estimation close to 1.The maximum-liklihood for the logistic regression will be a search for values for best coefficients.The data used for logistic regression must be noise free .
+An example for simple logistic regression model has been shown in LogisticRegression.py and data sets for this model is given with irisx.csv and irisy.csv
